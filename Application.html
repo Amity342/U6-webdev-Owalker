@@ -1,0 +1,84 @@
+<html>
+    <head>
+      
+      <link rel="stylesheet" href="./Css/Bean.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        form {margin-left: 30%;
+              padding-top: 5%;
+              font-size: 150%;
+              padding-bottom: 5%;
+                }
+            
+        #div1 {max-width: 25%;
+             height: 5%;
+            background-color: #e4cebe;
+            outline-color: #D9BAA3 ;
+            outline-style: solid;
+            outline-width: 1%;
+            text-align: center;
+            padding-top: 2%;
+            margin-top: 2%;
+            font-size:1.7vw;
+            margin-left: 38%;}    
+      </style>
+    </head>
+       <body>
+        <Nav>
+            <ul>
+                <img id="img1" src="./Images/Logo-big.png" Alt="A temp logo" Width="150" Height="100">
+                <button onclick="document.location='Main.html'">Main</button>
+                <button onclick="document.location='Trainee.html'">Trainee</button>
+                <button onclick="document.location='JobSpec.html'">Job Spec</button>
+                <button onclick="document.location='Application.html'"> Applications </button>
+                <button onclick="document.location='Courses.html'"> courses </button>
+            </ul>   
+        </Nav>
+
+        <div id="div1">
+            <p>Application</p>
+        </div>
+
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="*" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="*" required>
+            <!--radial--> <p>How many years of experience do you have</p>
+            <input type="radio" id="0-1yr" name="Job" value="0-1yr"required>
+            <label for="0-1yr">0-1yr</label><br>
+            <input type="radio" id="1-2yr" name="Job" value="1-2yr"required>
+            <label for="1-2yr">1-2yr</label><br>
+            <input type="radio" id="2-3yr" name="Job" value="2-3yr"required>
+            <label for="2-3yr">2-3yr</label><br>
+            <input type="radio" id="3-4yr" name="Job" value="3-4yr"required>
+            <label for="3-4yr">3-4yr</label><br>
+            <input type="radio" id="5+" name="Job" value="5+"required>
+            <label for="5+">5+</label>
+            <!--end radial--> <P>what qualifications do you have for this position?</P>
+            <textarea id="w3review" name="w3review" rows="4" cols="50" minlength="5" required></textarea>
+            <P>Please put any refrences here, if none then leave blank</P>
+            <textarea id="w3review" name="w3review" rows="4" cols="50" minlength="" required></textarea>
+            <label for="fname"></label><br>
+            <label for="fname"></label><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+    <footer>
+        <div class="mycontainer">
+            <div id="foot1">
+                <p>hotbeans@gmail.com</p>
+            </div>
+            <div id="foot2">
+                <p>Hotbeans on facebook</p>
+            </div>
+            <div id="foot3">
+                <p>design by oliver walker</p>
+            </div>
+
+            </div>
+        </div>
+    </footer>
+
+</html>
